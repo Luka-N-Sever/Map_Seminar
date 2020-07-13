@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_MyCreds"
+            android:icon="@drawable/ic_auto"
+            android:title="My Creds"/>
+        <item
+            android:id="@+id/nav_ParkingLots"
+            android:icon="@drawable/ic_plots"
+            android:title="Parking Lots"/>
+        <item
+            android:id="@+id/nav_PurchaseCred"
+            android:icon="@drawable/ic_shopwheels"
+            android:title="Purchase Creds"/>
+        <item
+            android:id="@+id/nav_SwitchCity"
+            android:icon="@drawable/ic_switchcity"
+            android:title="Switch City"/>
+    </group>
+
+
+    <item android:title="Account Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_update"
+                android:icon="@drawable/ic_edit"
+                android:title="Update Profile"/>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Sign Out"/>
+        </menu>
+    </item>
+</menu>
